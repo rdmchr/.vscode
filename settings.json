@@ -11,7 +11,7 @@
     "editor.fontLigatures": true,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "window.autoDetectColorScheme": true,
-    "workbench.colorTheme": "Palenight Operator",
+    "workbench.colorTheme": "poimandres",
     "workbench.preferredLightColorTheme": "Tomorrow Operator Mono",
     "workbench.preferredDarkColorTheme": "Palenight Operator",
     "editor.codeLensFontSize": 13,
@@ -22,8 +22,6 @@
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.lineHeight": 1,
     "debug.console.fontSize": 10,
-    // More minimal UI
-    "window.zoomLevel": 1,
     "editor.minimap.enabled": false,
     "editor.glyphMargin": false,
     "editor.folding": false,
@@ -79,7 +77,6 @@
       ".cache-loader/": true,
       ".editorconfig": true,
       ".gitattributes": true,
-      ".gitignore": true,
       ".gitkeep": true,
       ".nuxt": true,
       ".output": true,
@@ -142,10 +139,22 @@
     "[svelte]": {
       "editor.defaultFormatter": "svelte.svelte-vscode"
     },
-    "window.commandCenter": true,
     "[rust]": {
       "editor.defaultFormatter": "rust-lang.rust"
     },
     "editor.lineNumbers": "off",
-    "workbench.activityBar.visible": false,
+    "window.commandCenter": true,
+    "workbench.layoutControl.enabled": false,
+    "remote.SSH.remotePlatform": {
+      "coder.Testing.main": "linux",
+      "coder.NodeJS": "linux"
+    },
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": true,
+      "plaintext": false,
+      "markdown": true
+    },
+    "redhat.telemetry.enabled": false,
+    "window.zoomLevel": 1,
   }
